@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MovieDB</string>
+    <string name="watch_trailer">Watch Trailer</string>
+    <string name="genres">Genres</string>
+    <string name="date">Date</string>
+    <string name="overview">Overview</string>
+    <string name="done">Done</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="choose_cinema">Choose Cinema</string>
+    <string name="enter_seat_number">Enter Seat Number</string>
+    <string name="book">BOOK</string>
+    <string name="enter_all_fields">Please enter all the fields</string>
+    <string name="tickets_booked">Tickets Booked</string>
+    <string name="view_tickets">View Tickets</string>
+    <string name="no_tickets">No Tickets Booked</string>
+    <string name="no_network">No Network Available</string>
+    <string name="adult">Adult</string>
+    <string name="non_adult">Non Adult</string>
+</resources>

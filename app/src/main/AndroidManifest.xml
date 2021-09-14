@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.movieDB.movies">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".MovieAppClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MovieDB">
+        <activity
+            android:name=".activities.MainActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:launchMode="singleTop">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+<!--        <activity-->
+<!--            android:name=".activities.GetMovieDetailActivity"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize"-->
+<!--            android:theme="@style/MyTheme" />-->
+        <activity
+            android:name=".activities.PlayMovieTrailerActivity"
+            android:screenOrientation="landscape"
+            android:theme="@style/MyTheme" />
+<!--        <activity-->
+<!--            android:name=".activities.BookTicketsActivity"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize" />-->
+<!--        <activity-->
+<!--            android:name=".activities.ViewTicketsActivity"-->
+<!--            android:configChanges="keyboardHidden|orientation|screenSize" />-->
+    </application>
+
+</manifest>
